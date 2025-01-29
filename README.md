@@ -1,2 +1,2 @@
 # KevoBro.github.io
-Personal Website Portfolio
+This is a Personal Website Portfolio about Kevin Huynh, it details personal projects, experiences, and coursework. 
