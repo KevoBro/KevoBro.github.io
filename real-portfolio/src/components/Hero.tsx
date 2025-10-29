@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion, MotionConfig, useInView, useAnimation} from 'framer-motion'
 import Reveal from './utils/Reveal'
-import ProfilePic from '../images/ProfilePicture.jpg'
+import ProfilePic from '/images/ProfilePicture.jpg'
 
 export default function Hero(): React.ReactElement {
   return (

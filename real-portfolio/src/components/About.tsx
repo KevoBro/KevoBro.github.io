@@ -2,9 +2,9 @@ import React from 'react'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Reveal from './utils/Reveal';
-import CameraPic from '../images/KevinHoldingCamera.jpg';
-import EboardPic from '../images/EboardPic.jpg';
-import MediaNight from '../images/MediaNight.jpg';
+import CameraPic from '/images/KevinHoldingCamera.jpg';
+import EboardPic from '/images/EboardPic.jpg';
+import MediaNight from '/images/MediaNight.jpg';
 
 
 
