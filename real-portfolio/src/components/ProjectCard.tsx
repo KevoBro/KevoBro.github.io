@@ -22,7 +22,7 @@ export default function ProjectCard({ title, date, image, description, url }: Pr
       <p className="text-md text-black font-josefin mb-4 h-[5em] overflow-y-auto">{description}</p>
       </div>
       <div className="flex justify-between">
-        <a href={url} className="font-black font-josefin text-blue-800 hover:underline">View project</a>
+        <a href={url} className="font-black font-josefin text-blue-800 hover:underline" target="_blank">View project</a>
         
       </div>
     </motion.article>
