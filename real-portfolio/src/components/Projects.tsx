@@ -1,8 +1,8 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import PersonaCard from '../images/PersonaScreenshot.png'
-import BulldogImage from '../images/BulldogExchange.png'
-import ReelMovies from '../images/ReelMovies.png'
+import PersonaCard from '/images/PersonaScreenshot.png'
+import BulldogImage from '/images/BulldogExchange.png'
+import ReelMovies from '/images/ReelMovies.png'
 import Reveal from './utils/Reveal'
 
 const projects = [
