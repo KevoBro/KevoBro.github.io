@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import {motion, MotionConfig} from 'framer-motion'
 import LinkedinSVG from '../assets/whiteLinkedIn.svg'
 import GithubSVG from '../assets/GitHub_dark.svg'
+import KHLogo from '/images/KHLogo.png'
 
 const base = 'text-sm px-3 rounded-md'
 
@@ -22,7 +23,7 @@ export default function NavBar(): React.ReactElement {
       <div className="mx-auto flex justify-between items-center max-w-6xl">
         <motion.div initial={{scale:1}} whileHover={{scale:1.02}} whileTap={{scale:0.95}}>
         <NavLink to="/" className="inline-block" >
-          <img src="/src/images/KHLogo.png" alt="Logo" className="h-24 w-24 rounded-md border-2 border-white bg-white" />
+          <img src={KHLogo} alt="Logo" className="h-24 w-24 rounded-md border-2 border-white bg-white" />
         </NavLink>
         </motion.div>
         <nav className="flex justify-end items-center gap-10 w-full">
