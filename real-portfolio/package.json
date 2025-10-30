@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@tailwindcss/vite": "^4.1.16",
     "emailjs": "^4.0.3",
     "framer-motion": "^12.23.24",
     "lightningcss": "^1.30.2",
@@ -33,7 +34,7 @@
     "globals": "^16.4.0",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "tailwindcss": "^4.1.14",
+    "tailwindcss": "^4.1.16",
     "typescript": "^5.5.6"
   },
   "engines": {
