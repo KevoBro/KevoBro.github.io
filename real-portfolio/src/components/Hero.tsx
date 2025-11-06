@@ -9,7 +9,7 @@ export default function Hero(): React.ReactElement {
     <section className="py-6 md:flex md:justify-start rounded-lg max-w-6xl gap-16">
       <div className=" max-w-2xl mr-4 flex-col items-start rounded-lg">
         <h1 className="text-7xl 2xl:text-8xl font-black font-outfit mt-2 mb-6 text-white text-shadow-[#759DC5] text-shadow-md">Kevin Huynh</h1>
-        <h2 className="text-5xl 2xl:text-6xl font-bold tracking-tight mb-4 text-white">Hi — I build beautiful web experiences.</h2>
+        <h2 className="text-center sm:text-left text-5xl 2xl:text-6xl font-bold tracking-tight mb-4 text-white">Hi — I build beautiful web experiences.</h2>
         <p className="text-gray-600 font-semibold text-2xl tracking-wide leading-12 mb-6 text-shadow-2xs">I'm a fullstack developer focused on building accessible, performant, and intuitive interfaces. Having personal interests in photography, video-editing, and game design, I have a passion for creating immersive digital experiences.</p>
       </div>
       <div className="mt-8 md:mt-0 shadow-2xl py-3 px-3 backdrop-blur-xl bg-black/10 rounded-md border-8 border-white/30 flex-col h-fit">
