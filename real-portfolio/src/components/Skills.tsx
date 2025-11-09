@@ -64,7 +64,7 @@ export default function Skills(): React.ReactElement {
   return (
     <section id="skills" className="mt-20 border-y-2 py-8 border-white font-josefin">
       <Reveal>
-      <h3 className="text-4xl font-bold mb-6 text-white text-shadow-[#759DC5] text-shadow-lg">Languages</h3>
+      <h3 className="text-center md:text-left text-4xl font-bold mb-6 text-white text-shadow-[#759DC5] text-shadow-lg">Languages</h3>
       <div className="flex gap-6 justify-center flex-wrap">
         {languageSkills.map((s) => (
           <SkillCard key={s.id} title={s.title} image={s.image} />
@@ -73,7 +73,7 @@ export default function Skills(): React.ReactElement {
       </div>
       </Reveal>
       <Reveal>
-       <h3 className="text-4xl font-bold my-6 text-white text-shadow-[#759DC5] text-shadow-lg ">Server-side</h3>
+       <h3 className="text-center md:text-left text-4xl font-bold my-6 text-white text-shadow-[#759DC5] text-shadow-lg ">Server-side</h3>
       <div className="flex gap-6 justify-center flex-wrap">
         {serverSkills.map((s) => (
           <SkillCard key={s.id} title={s.title} image={s.image} />
@@ -82,7 +82,7 @@ export default function Skills(): React.ReactElement {
       </div>
       </Reveal>
       <Reveal>
-       <h3 className="text-4xl font-bold my-6 text-white text-shadow-[#759DC5] text-shadow-lg ">Tools</h3>
+       <h3 className="text-center md:text-left text-4xl font-bold my-6 text-white text-shadow-[#759DC5] text-shadow-lg ">Tools</h3>
       <div className="flex gap-6 justify-center flex-wrap">
         {toolSkills.map((s) => (
           <SkillCard key={s.id} title={s.title} image={s.image} />
@@ -91,7 +91,7 @@ export default function Skills(): React.ReactElement {
       </div>
       </Reveal>
         <Reveal>
-       <h3 className="text-4xl font-bold my-6 text-white text-shadow-[#759DC5] text-shadow-lg">Creative</h3>
+       <h3 className="text-center md:text-left text-4xl font-bold my-6 text-white text-shadow-[#759DC5] text-shadow-lg">Creative</h3>
       <div className="flex gap-6 justify-center flex-wrap">
         {creativeSkills.map((s) => (
           <SkillCard key={s.id} title={s.title} image={s.image} />

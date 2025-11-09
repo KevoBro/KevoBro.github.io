@@ -35,8 +35,8 @@ export default function App(): React.ReactElement {
             <Route path="/" element={<><Hero /><Skills />
              <Reveal>
              <section id="projects" className="mt-20">
-                  <h3 className="text-5xl font-semibold mb-10 text-white font-josefin text-shadow-md text-shadow-[#759DC5]  pb-2 border-white">Latest projects</h3>
-                  <div className="grid gap-6 md:grid-cols-3">
+                  <h3 className="text-center md:text-left text-5xl font-semibold mb-10 text-white font-josefin text-shadow-md text-shadow-[#759DC5]  pb-2 border-white">Latest projects</h3>
+                  <div className="grid justify-center md:justify-start gap-6 md:grid-cols-3">
                     {projects.map((p) => (
                       <ProjectCard key={p.id} title={p.title} date={p.date} image={p.image} description={p.description} url={p.url} />
                     ))}
